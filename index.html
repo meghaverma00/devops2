@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laced — Shoes for every pace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#">Laced</a>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button class="cart" id="cartBtn" aria-label="Cart">Cart <span id="cartCount">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Shoes that do not keep up with your day.</h1>
+        <p>Pick a pair, pick a color, and wear it out of the box. Free returns for 30 days.</p>
+        <a class="btn" href="#shop">Shop all shoes</a>
+      </div>
+      <div class="hero-shoe">
+        <div id="heroShoe" class="shoe-wrap"></div>
+        <div class="swatches" id="swatches" aria-label="Choose a color"></div>
+      </div>
+    </section>
+
+    <section id="shop" class="shop">
+      <div class="shop-head">
+        <h2>The collection</h2>
+        <div class="filters" id="filters"></div>
+      </div>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Made to be worn, not kept in a box.</h2>
+      <p>We build every pair with cushioned midsoles, breathable uppers and outsoles that grip wet pavement. Sizes run true, and if they don't feel right in the first month, send them back.</p>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Questions? Write to hello@laced.example</p>
+    <p>© 2026 Laced</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
